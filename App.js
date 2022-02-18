@@ -23,9 +23,10 @@ const App = () => {
       <Stack.Navigator
        initialRouteName="category" 
        screenOptions = {{
+         animation:'slide_from_left',
+         presentation:'containedTransparentModal',
          headerStyle: {
-           backgroundColor: 'black',
-
+           backgroundColor: 'dodgerblue',
           }, 
          headerTitleStyle: {
            color:'white',

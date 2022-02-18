@@ -41,7 +41,7 @@ const CategoriesScreen = (props) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    borderColor:'yellow',
+    // borderColor:'yellow',
     borderWidth:1,
     padding:0
     // justifyContent: 'center',
